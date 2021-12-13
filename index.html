@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/LOGO2.png" loading="eager" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Einstein B</title>
+</head>
+
+<body>
+    <div class="popup">
+        <button id="close">&times;</button>
+        <img src="./assets/12.12.png" alt="" loading="eager">
+    </div>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./assets/logo24.png" loading="eager" class='bx-tada nav__logo-icon'> Einstein B
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#flashdeals" class="nav__link">Flash Deals</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#teachers" class="nav__link">Teachers</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#students" class="nav__link">Students</a>
+                    </li>
+                    <!--<li class="nav__item">
+                        <a href="./pages/id.html" class="nav__link">ID</a>
+                    </li>-->
+                    <li class="nav__item">
+                        <a href="./pages/gallery.html" class="nav__link">Gallery</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <div class="nav__shop" id="cart-shop">
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== CART ====================-->
+    <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+
+        <h2 class="cart__title-center">Class Officers</h2>
+
+        <div class="cart__container">
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/black/Laurio.png" loading="eager" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Cassandra Angel Laurio</h3>
+                    <span class="cart__price">$1000 - President</span>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/black/Nollan.png" loading="eager" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Kate Lindsay Nollan</h3>
+                    <span class="cart__price">$999 - Vice President</span>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/black/Londres.png" loading="eager" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Lance Dencel Londres</h3>
+                    <span class="cart__price">$0 - Secretary</span>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/black/Sorio.png" loading="eager" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Clarissa Joyce Sorio</h3>
+                    <span class="cart__price">$899 - Assist. Secretary</span>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/black/sy.png" loading="eager" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Caliah Cole Sy</h3>
+                    <span class="cart__price">$799 - Auditor</span>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/black/Jagunos.png" loading="eager" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Christine Angela Mae Jagunos</h3>
+                    <span class="cart__price">$849 - Treasurer</span>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/black/magtibay.png" loading="eager" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Jeric Magtibay</h3>
+                    <span class="cart__price">$749 - P.I.O</span>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/black/ramos.png" loading="eager" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Christian Ramos</h3>
+                    <span class="cart__price">$699 - Peace Officer</span>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/black/jardin.png" loading="eager" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Jose Jardin</h3>
+                    <span class="cart__price">$96 - Developer</span>
+                </div>
+            </article>
+        </div>
+
+        <div class="cart__prices">
+            <span class="cart__prices-item">9 items</span>
+            <span class="cart__prices-total">$6090</span>
+        </div>
+    </div>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__img-bg">
+                    <img src="assets/black/Classpic.png" loading="eager" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        Facebook
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                        Twitter
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        Instagram
+                    </a>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Einstein B</h1>
+                    <p class="home__description">
+                        All of the contents covered by this site are for entertainment purposes only- And we do not
+                        intend to invade the personal life of each other.
+                    </p>
+                    <span class="home__price">$4000</span>
+
+                    <div class="home__btns">
+                        <a href="#" class="button button--gray button--small">
+                            Discover
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== NEW ====================-->
+        <section class="new section container" id="flashdeals">
+            <h2 class="section__title">
+                Flash Deals
+                <br>
+                <br>
+                Winners of the Month
+            </h2>
+            <h5 style="text-align: center;">Swipe for more!</h5>
+            <a href="./pages/flashdeals.html" class="footer__link">
+                <h5>see all</h5>
+            </a>
+
+            <div class="new__container">
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">congrats</span>
+
+                            <img src="./assets/god_poster.jpg" loading="eager" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Jose Jardin</h3>
+                                <span class="new__price">Gods of Literature Grand Winner
+                                    <br>
+                                    Best in Video Production
+                                    <br>
+                                    Best in Costume
+                                    <br>
+                                    Photogenic
+                                </span>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">congrats</span>
+
+                            <img src="./assets/goddess_poster.jpg" loading="eager" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Christine Angela Mae Jagunos</h3>
+                                <span class="new__price">Goddess of Literature 1st Runner Up
+                                    <br>
+                                    Most Shared Video
+                                </span>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">congrats</span>
+
+                            <img src="./assets/black/Laurio.png" loading="eager" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Cassandra Angel Laurio</h3>
+                                <span class="new__price">Declamation Participant</span>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">congrats</span>
+
+                            <img src="./assets/black/Nollan.png" loading="eager" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Kate Lindsay Nollan</h3>
+                                <span class="new__price">POV Participant</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TEACHERS ====================-->
+        <section class="featured section container" id="teachers">
+            <h2 class="section__title">
+                Teachers
+            </h2>
+
+            <div class="featured__container grid">
+                <article class="featured__card">
+                    <span class="featured__tag">SOLD</span>
+
+                    <img src="assets/Jp.png" loading="eager" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">John Paul Beraquit</h3>
+                        <span class="featured__price">Science Teacher</span>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">SOLD</span>
+
+                    <img src="assets/Pardilla.png" loading="eager" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Arlene Pardilla</h3>
+                        <span class="featured__price">ESP Teacher</span>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">SOLD</span>
+
+                    <img src="assets/Santor.png" loading="eager" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Edmunda Santor</h3>
+                        <span class="featured__price">Math Teacher</span>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">SOLD</span>
+
+                    <img src="assets/Bonagua.png" loading="eager" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Mary Joy Bonagua</h3>
+                        <span class="featured__price">TLE-Cookery Teacher</span>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">SOLD</span>
+
+                    <img src="assets/Domingo.png" loading="eager" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Jinica Domingo</h3>
+                        <span class="featured__price">MAPEH Teacher</span>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">SOLD</span>
+
+                    <img src="assets/Cesar 2.0.png" loading="eager" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Jacel Ann Cesar</h3>
+                        <span class="featured__price">English Teacher</span>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">SOLD</span>
+
+                    <img src="assets/Payumo .png" loading="eager" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Lanie Payumo</h3>
+                        <span class="featured__price">AP Teacher</span>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">SOLD</span>
+
+                    <img src="assets/Marife.png" loading="eager" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Marife Precilla</h3>
+                        <span class="featured__price">Filipino Teacher</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== STORY ====================-->
+        <!--<section class="story section container" id="ourstory">
+            <div class="story__container grid">
+                <div class="story__data">
+                    <h2 class="section__title story__section-title">
+                        Our Story
+                    </h2>
+
+                    <h1 class="story__title">
+                        Lorem Ipsum Dolor <br> Sit amet
+                    </h1>
+
+                    <p class="story__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cum, nobis deleniti nostrum sit
+                        architecto ad recusandae rerum asperiores laborum culpa fugit veniam, molestias aliquam voluptas
+                        corporis eum quo libero.
+                    </p>
+
+                    <a href="#" class="button button--small">Discover</a>
+                </div>
+
+                <div class="story__images">
+                    <img src="assets/black/officers.png" loading="eager" alt="" class="story__img">
+                    <div class="story__square"></div>
+                </div>
+            </div>
+        </section>-->
+
+        <!--==================== STUDENTS ====================-->
+        <section class="products section container" id="students">
+            <h2 class="section__title">
+                Students
+            </h2>
+
+            <div class="products__container grid">
+                <article class="products__card">
+                    <img src="assets/black/Garcia.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Sharp-Witted</span>
+
+                    <h3 class="products__title">Trisha Nicole Garcia</h3>
+                    <span class="products__price">$488</span>
+
+                    <a href="https://www.facebook.com/trishanicole.garcia.5" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Guererro.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Spontaneous</span>
+
+                    <h3 class="products__title">Angela Nicole Guererro</h3>
+                    <span class="products__price">$199</span>
+
+                    <a href="https://www.facebook.com/profile.php?id=100073199914400" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Gutierrez.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Spontaneous</span>
+
+                    <h3 class="products__title">Elin Gutierrez</h3>
+                    <span class="products__price">$689</span>
+
+                    <a href="https://www.facebook.com/elinreign.gutierrez" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Luminario.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Sharp-Witted</span>
+
+                    <h3 class="products__title">Venice Luminario</h3>
+                    <span class="products__price">$249</span>
+
+                    <a href="https://www.facebook.com/profile.php?id=100008963103496" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Manaloto.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Chirographic</span>
+
+                    <h3 class="products__title">Maizel Manaloto</h3>
+                    <span class="products__price">$349</span>
+
+                    <a href="https://www.facebook.com/maizel.manaloto5" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Matias.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Chirographic</span>
+
+                    <h3 class="products__title">Rhene Vhien Matias</h3>
+                    <span class="products__price">$499</span>
+
+                    <a href="https://www.facebook.com/profile.php?id=100004434795893" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Molina.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Hoofer</span>
+
+                    <h3 class="products__title">Winzel Molina</h3>
+                    <span class="products__price">$499</span>
+
+                    <a href="https://www.facebook.com/molina.winzel" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Obispo.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Pious</span>
+
+                    <h3 class="products__title">Gessy Angela Obispo</h3>
+                    <span class="products__price">$199</span>
+
+                    <a href="https://www.facebook.com/gessyangela" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Quitoria.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Vocal</span>
+
+                    <h3 class="products__title">Alexa Quitoria</h3>
+                    <span class="products__price">$599</span>
+
+                    <a href="https://www.facebook.com/alexamaru.quitoria" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Raymunde.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Spontaneous</span>
+
+                    <h3 class="products__title">Nicole Raymunde</h3>
+                    <span class="products__price">$449</span>
+
+                    <a href="https://www.facebook.com/profile.php?id=100009455520682" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Sabeniano.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Comfort</span>
+
+                    <h3 class="products__title">Andrea Sabeniano</h3>
+                    <span class="products__price">$689</span>
+
+                    <a href="https://www.facebook.com/andrea.perezsabeniano" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Saboy.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Artists</span>
+
+                    <h3 class="products__title">Meynard Saboy</h3>
+                    <span class="products__price">$659</span>
+
+                    <a href="https://www.facebook.com/meynard.saboy.3" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Solitario.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Songbird</span>
+
+                    <h3 class="products__title">Jamaela Feliz Solitario</h3>
+                    <span class="products__price">$799</span>
+
+                    <a href="https://www.facebook.com/profile.php?id=100073199914400" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Villanueva.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Musician</span>
+
+                    <h3 class="products__title">Marcus Zion Villanueva</h3>
+                    <span class="products__price">$469</span>
+
+                    <a href="https://www.facebook.com/marcuszion.villanueva" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Zabala.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Prince</span>
+
+                    <h3 class="products__title">Franz Larrie Zabala</h3>
+                    <span class="products__price">$199</span>
+
+                    <a href="https://www.facebook.com/franzlarrie.zabala" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Sobremonte.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Spontaneous</span>
+
+                    <h3 class="products__title">Rilliana Sobremonte</h3>
+                    <span class="products__price">$299</span>
+
+                    <a href="https://www.facebook.com/Itsmerilliana.27" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Virtudazo.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Spontaneous</span>
+
+                    <h3 class="products__title">Janna Grace Virtudazo</h3>
+                    <span class="products__price">$599</span>
+
+                    <a href="https://www.facebook.com/annaj.cruzvirtudazo" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Soriano.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Spontaneous</span>
+
+                    <h3 class="products__title">Anjella Mae Soriano</h3>
+                    <span class="products__price">$199</span>
+
+                    <a href="https://www.facebook.com/anjella.soriano.77" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Quinto.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Spontaneous</span>
+
+                    <h3 class="products__title">Lara Aaliyah Quinto</h3>
+                    <span class="products__price">$149</span>
+
+                    <a href="https://www.facebook.com/eleyquinto.000001" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Luna.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Spontaneous</span>
+
+                    <h3 class="products__title">Maria Enrica Luna</h3>
+                    <span class="products__price">$399</span>
+
+                    <a href="https://www.facebook.com/mariaenricasay" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Sagun.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Confident</span>
+
+                    <h3 class="products__title">Perlene Sagun</h3>
+                    <span class="products__price">$149</span>
+
+                    <a href="https://www.facebook.com/sgn.prln117" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Malayao.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Chirographic</span>
+
+                    <h3 class="products__title">Karylle Ann Malayao</h3>
+                    <span class="products__price">$449</span>
+
+                    <a href="https://www.facebook.com/profile.php?id=100010245041093" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Reyes.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Artists</span>
+
+                    <h3 class="products__title">Resgie Reyes</h3>
+                    <span class="products__price">$249</span>
+
+                    <a href="https://www.facebook.com/rsg.rys" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Liwalas.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Artists</span>
+
+                    <h3 class="products__title">Maribel Liwalas</h3>
+                    <span class="products__price">$149</span>
+
+                    <a href="https://www.facebook.com/maribel.liwalas.9" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Nerido.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Artists</span>
+
+                    <h3 class="products__title">Shiela Nerido</h3>
+                    <span class="products__price">$649</span>
+
+                    <a href="https://www.facebook.com/Shiela.Marie.Nerido.13" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/mergal.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Sharp-Witted</span>
+
+                    <h3 class="products__title">Dave Mergal</h3>
+                    <span class="products__price">$249</span>
+
+                    <a href="https://www.facebook.com/faden.gust" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Javier.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Journalist</span>
+
+                    <h3 class="products__title">Meg Javier</h3>
+                    <span class="products__price">$299</span>
+
+                    <a href="https://www.facebook.com/meg.javier.06" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Yap.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Pious</span>
+
+                    <h3 class="products__title">Jorgene Yap</h3>
+                    <span class="products__price">$349</span>
+
+                    <a href="https://www.facebook.com/jrgn.yap" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Gregorio.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Visuals</span>
+
+                    <h3 class="products__title">Nicole Gregorio</h3>
+                    <span class="products__price">$199</span>
+
+                    <a href="https://www.facebook.com/cocolikco" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Litang.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Visuals</span>
+
+                    <h3 class="products__title">Michael Litang</h3>
+                    <span class="products__price">$339</span>
+
+                    <a href="https://www.facebook.com/Michaellitangggh" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Sabado.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Visuals</span>
+
+                    <h3 class="products__title">Krystel Cairah Sabado</h3>
+                    <span class="products__price">$849</span>
+
+                    <a href="https://www.facebook.com/xairahkrys" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Tumibay.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Visuals</span>
+
+                    <h3 class="products__title">Daniel Tumibay</h3>
+                    <span class="products__price">$749</span>
+
+                    <a href="https://www.facebook.com/danbuup.tumibs" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Stotomas.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Visuals</span>
+
+                    <h3 class="products__title">Jamaica Sto. Tomas</h3>
+                    <span class="products__price">$349</span>
+
+                    <a href="https://www.facebook.com/jamaica.stotomas" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Marog.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Visuals</span>
+
+                    <h3 class="products__title">Mecan Marog</h3>
+                    <span class="products__price">$249</span>
+
+                    <a href="https://www.facebook.com/mecan.marog" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Maquillan.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Vocal</span>
+
+                    <h3 class="products__title">Nicole Maquilan</h3>
+                    <span class="products__price">$149</span>
+
+                    <a href="https://www.facebook.com/nicole.maquilan.3" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Sumasay.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Vocal</span>
+
+                    <h3 class="products__title">Angelica Sumasay</h3>
+                    <span class="products__price">$449</span>
+
+                    <a href="https://www.facebook.com/angelica.sumasay.3" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/black/Mayao.png" loading="eager" alt="" class="products__img">
+                    <span class="new__tag">Vocal</span>
+
+                    <h3 class="products__title">Kasandra Chescka Mayao</h3>
+                    <span class="products__price">$449</span>
+
+                    <a href="https://www.facebook.com/kasandra.chesckacastro" class="products__button">
+                        <i class='bx bxl-facebook-square bx-tada'></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section container" id="confession">
+            <h2 class="section__title">
+                WALL
+            </h2>
+            <div class="testimonial__container grid">
+                <div class="swiper testimonial-swiper">
+                    <div class="swiper-wrapper">
+                        <!--<div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    They are the best watches that one acquires, also they are always with the latest 
+                                    news and trends, with a very comfortable price and especially with the attention 
+                                    you receive, they are always attentive to your questions.
+                                </p>
+                                <h3 class="testimonial__date">March 27. 2021</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Lee Doe</span>
+                                        <span class="testimonial__perfil-detail">Director of a company</span>
+                                    </div>
+                                </div>
+                            </div>-->
+
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <iframe class="gform"
+                                src="https://docs.google.com/forms/d/e/1FAIpQLScKqFSnzMmEjk_xwTpMikk_RAPaMnSET-gO7QfS5bxMdvN0VQ/viewform?embedded=true"
+                                frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        </div>
+                    </div>
+
+                    <!--<div class="swiper-button-next">
+                            <i class='bx bx-right-arrow-alt' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-left-arrow-alt' ></i>
+                        </div>-->
+                </div>
+
+                <div class="testimonial__images">
+                    <div class="testimonial__square"></div>
+                    <img src="./assets/tcday/Ma'am Precilla.jpeg" alt="" class="testimonial__img" loading="lazy">
+                    <img src="./assets/tcday/Ma'am Pardilla.jpeg" alt="" class="testimonial__img" loading="lazy">
+                    <img src="./assets/tcday/Ma'am Santor.jpeg" alt="" class="testimonial__img" loading="lazy">
+                    <img src="./assets/tcday/Ma'am Bonagua.jpeg" alt="" class="testimonial__img" loading="lazy">
+                    <img src="./assets/tcday/Ma'am Domingo.jpeg" alt="" class="testimonial__img" loading="lazy">
+                    <img src="./assets/tcday/Ma'am Payumo .jpeg" alt="" class="testimonial__img" loading="lazy">
+                    <img src="./assets/tcday/Sir JohnPaul.jpeg" alt="" class="testimonial__img" loading="lazy">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <h3 class="footer__title">Games</h3>
+
+                <ul class="footer__list">
+                    <ul class="footer__links">
+                        <li>
+                            <a href="./games/Tetris/tetris.html" class="footer__link">Tetris</a>
+                        </li>
+                        <li>
+                            <a href="./games/Sudoku/sudoku.html" class="footer__link">Sudoku</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">About Us</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#confession" class="footer__link">Confession</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Content</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#flashdeals" class="footer__link">Flash Deals</a>
+                    </li>
+                    <li>
+                        <a href="#teachers" class="footer__link">Teachers</a>
+                    </li>
+                    <li>
+                        <a href="#students" class="footer__link">Students</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Pages</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="./pages/flashdeals.html" class="footer__link">Flash Deals</a>
+                    </li>
+                    <!--<li>
+                        <a href="./pages/id.html" class="footer__link">ID</a>
+                    </li>-->
+                    <li>
+                        <a href="./pages/gallery.html" class="footer__link">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy">Powered By: <a href="https://josejardin.vercel.app" class="footer__link">JoseTech AI
+                Technologies</a></span>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+    <!--=============== SWIPER JS ===============-->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script>
+        var end = Date.now() + (15 * 1000);
+
+        // go Buckeyes!
+        var colors = ['#a864fd', '#29cdff', '#78ff44', '#ff718d', '#fdff6a'];
+
+        (function frame() {
+            confetti({
+                particleCount: 2,
+                angle: 60,
+                spread: 55,
+                origin: { x: 0 },
+                colors: colors
+            });
+            confetti({
+                particleCount: 2,
+                angle: 120,
+                spread: 55,
+                origin: { x: 1 },
+                colors: colors
+            });
+
+            if (Date.now() < end) {
+                requestAnimationFrame(frame);
+            }
+        }());
+    </script>
+</body>
+
+</html>

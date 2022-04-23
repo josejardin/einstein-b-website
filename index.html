@@ -6,18 +6,16 @@
     <meta property="og:title" content="Einstein B" />
     <meta property="og:image" content="./assets/black/classpic2" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--=============== FAVICON ===============--
     <link rel="shortcut icon" href="./assets/logo24.png" loading="eager" type="image/x-icon">
 
-    <--=============== BOXICONS ===============--
+    <!--=============== BOXICONS ===============--
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
     <--=============== SWIPER CSS ===============--
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 
-    <--=============== CSS ===============-->
-    <link rel="stylesheet" href="./css/styles.css">
+    <--=============== CSS =============== 
+    <link rel="stylesheet" href="./css/styles.css">-->
 
     <title>Einstein B</title>
 </head>
@@ -1070,20 +1068,31 @@
             }
         }());
     </script>-->
-    <div class="uc__wrapper">
-        <div class="uc__details">
-            <h1 class="title">Sorry, We're Closed.</h1>
-            <h3 class="intro">
-                We are working hard to give you a better experience.
-            </h3>
-            <p class="uc__description">
-                We are working hard on it & the site may go live very soon. We promise, it will be worth the wait!
-            </p>
-        </div>
-        <div class="uc__art">
-            <img src="under_construction.svg" alt="">
+        <div id="full_width">
+        <div class="inner_content">
+            <div class="content_middle">
+                <h1>Comming Soon</h1>
+                <h3>Stay Tuned!</h3>
+                <p>Type your Email Address and get updates.</p>
+                <div class="form">
+                    <form onsubmit="sendEmail(); reset(); returnfalse;">
+                        <input id="email" type="email" placeholder="Enter Your Email Address">
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <div class="socal_area">
+                    <ul>
+                        <li><a href="https://www.facebook.com/ashleyycassangel015"><i class="fab fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>

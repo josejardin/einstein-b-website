@@ -155,3 +155,17 @@ window.addEventListener("load", function(){
 document.querySelector("#close").addEventListener("click", function(){
   document.querySelector(".popup").style.display = "none";
 });
+
+
+// function send email
+function sendEmail() {
+    Email.send({
+        SecureToken: "4afedd25-df0a-4c1a-9f63-dc345e1b6d93",
+        To: 'josejardinml@gmail.com',
+        From: document.getElementById("email").value,
+        Subject: "Einstein B Opening Registration",
+        Body: "I want to be part opening of Einstein B website."
+    }).then(
+        message => alert(message)
+    );
+}

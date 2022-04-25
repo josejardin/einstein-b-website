@@ -1078,11 +1078,9 @@
                 <h1>Comming Soon</h1>
                 <h3>Stay Tuned!</h3>
                 <p>Type your Email Address and get updates.</p>
-                <div class="form">
-                    <form onsubmit="sendEmail(); reset();">
-                        <input id="email" type="email" placeholder="Enter Your Email Address">
-                        <input type="submit" value="Submit">
-                    </form>
+                <div id="form" class="form_1">
+                        <input id="email_id" type="email" placeholder="Enter Your Email Address" required>
+                        <input onclick="SendMail()" id="button" type="submit" value="Submit">
                 </div>
                 <div class="socal_area">
                     <ul>
@@ -1094,9 +1092,12 @@
         </div>
     </div>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="./js/main.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+            emailjs.init("E_B8QRSFnqaG3y87G");
+    </script>
 </body>
 
 </html>

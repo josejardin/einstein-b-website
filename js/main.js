@@ -160,9 +160,6 @@ document.querySelector("#close").addEventListener("click", function(){
 // function send email
 const serviceID = 'default_service';
 const templateID = 'template_w584mpt';
-const btn = document.getElementById('button');
-
-btn.value = 'Sending...';
 
 function SendMail() {
   var params = {

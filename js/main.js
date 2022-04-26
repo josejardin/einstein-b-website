@@ -162,11 +162,12 @@ const serviceID = 'default_service';
 const templateID = 'template_w584mpt';
 const btn = document.getElementById('button');
 
+btn.value = 'Sending...';
+
 function SendMail() {
   var params = {
     email_id: document.getElementById("email_id").value
   }
-  btn.value = 'Sending...';
   emailjs.send(serviceID, templateID, params).then(function (res) {
       alert("Your email has been sent! Thank you!");
   })

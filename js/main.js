@@ -158,14 +158,23 @@ document.querySelector("#close").addEventListener("click", function(){
 
 /*/
 // function send email
-const serviceID = 'default_service';
-const templateID = 'template_w584mpt';
+const btn = document.getElementById('button');
 
-function SendMail() {
-  var params = {
-    email_id: document.getElementById("email_id").value
-  }
-  emailjs.send(serviceID, templateID, params).then(function (res) {
-      alert("Your email has been sent! Thank you!");
-  })
-}
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_w584mpt';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Your response has been sent! Thank you for your cooperating.');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});

@@ -1078,15 +1078,10 @@
                 <h1>Comming Soon</h1>
                 <h3>Stay Tuned!</h3>
                 <p>Type your Email Address and get updates.</p>
-                <form action="https://formsubmit.co/josejardinml@gmail.com" method="POST">
-                    <div id="form" class="form_1">
-                        <input type="hidden" name="_template" value="table">
-                        <input name="email" type="email" placeholder="Enter Your Email Address" required>
-                        <input name="message" type="hidden" value="I want to be part of opening the Einstein B Website!">
-                        <input type="text" name="_honey" style="display:none">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_autoresponse" value="Thank you for your response, We will just and adjust our website.">
-                        <input type="submit" value="Submit">
+                <form id="form">
+                    <div class="form_1">
+                        <input type="text" name="email" id="email" placeholder="Enter your Email" required>
+                        <input type="submit" id="button" value="Submit">
                     </div>
                 </form>
                 <div class="socal_area">
@@ -1100,6 +1095,11 @@
     </div>
 
     <script src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script type="text/javascript">
+        emailjs.init('E_B8QRSFnqaG3y87G')
+    </script>
 </body>
 
 </html>
